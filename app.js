@@ -1,3 +1,4 @@
 import { products } from "./products.js";
 
-console.log(products);
+// Creating a copy of products array
+let filteredProducts = [...products];
