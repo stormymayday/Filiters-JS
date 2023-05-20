@@ -1,1 +1,3 @@
-console.log(`hello`);
+import { products } from "./products.js";
+
+console.log(products);
