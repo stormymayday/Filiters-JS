@@ -1,3 +1,5 @@
+import { productsContainer } from "../app.js";
+
 const displayProducts = () => {
 
 
