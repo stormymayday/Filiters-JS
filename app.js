@@ -5,5 +5,4 @@ import getElement from "./utils/getElement.js";
 let filteredProducts = [...products];
 
 // Selecting 'products-container'
-const productsContainer = getElement('.products-container');
-console.log(productsContainer);
+export const productsContainer = getElement('.products-container');
