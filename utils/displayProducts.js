@@ -1,8 +1,8 @@
-import { productsContainer } from "../app.js";
+import { productsContainer, filteredProducts } from "../app.js";
 
 const displayProducts = () => {
 
-
+    console.log(filteredProducts);
 
 };
 
