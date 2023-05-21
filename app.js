@@ -10,7 +10,14 @@ export const productsContainer = getElement('.products-container');
 
 displayProducts();
 
-// Text Filter
+// Text Filter - start
 const form = getElement('.input-form');
 const searchInput = getElement('.search-input');
-console.log(searchInput);
+
+form.addEventListener('keyup', () => {
+
+    console.log(searchInput.value);
+
+});
+
+// Text Filter - end
