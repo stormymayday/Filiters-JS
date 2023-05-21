@@ -9,3 +9,7 @@ export let filteredProducts = [...products];
 export const productsContainer = getElement('.products-container');
 
 displayProducts();
+
+// Text Filter
+const form = getElement('.input-form');
+console.log(form);
