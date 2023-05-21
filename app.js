@@ -12,4 +12,5 @@ displayProducts();
 
 // Text Filter
 const form = getElement('.input-form');
-console.log(form);
+const searchInput = getElement('.search-input');
+console.log(searchInput);
