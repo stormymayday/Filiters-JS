@@ -19,10 +19,14 @@ form.addEventListener('keyup', () => {
     // Modifying the filteredProducts array on each 'keyup' event
     filteredProducts = products.filter((product) => {
 
+        // 1. Dealing with case sensitivity using toLowerCase()
+        // 2. Using includes() to filter the products
+        // 3. If the inputVale is empty, includes() will include all the products 
         return product.title.toLowerCase().includes(inputValue);
 
     });
 
-});
+    displayProducts();
 
+});
 // Text Filter - end
