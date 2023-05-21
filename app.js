@@ -2,10 +2,8 @@ import { products } from "./utils/products.js";
 import getElement from "./utils/getElement.js";
 import displayProducts from "./utils/displayProducts.js";
 
-// Creating a copy of products array
 export let filteredProducts = [...products];
 
-// Selecting 'products-container'
 export const productsContainer = getElement('.products-container');
 
 displayProducts();
@@ -17,6 +15,13 @@ const searchInput = getElement('.search-input');
 form.addEventListener('keyup', () => {
 
     const inputValue = searchInput.value;
+
+    // Modifying the filteredProducts array on each 'keyup' event
+    filteredProducts = products.filter((product) => {
+
+        return product.title.toLowerCase().includes(inputValue);
+
+    });
 
 });
 
