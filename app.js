@@ -16,7 +16,7 @@ const searchInput = getElement('.search-input');
 
 form.addEventListener('keyup', () => {
 
-    console.log(searchInput.value);
+    const inputValue = searchInput.value;
 
 });
 
