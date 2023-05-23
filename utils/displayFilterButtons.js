@@ -1,3 +1,5 @@
+import getElement from "./getElement.js";
+
 const companiesDOM = getElement('.companies');
 
 const displayFilterButtons = () => {
