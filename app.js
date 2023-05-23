@@ -30,3 +30,8 @@ form.addEventListener('keyup', () => {
 
 });
 // Text Filter - end
+
+// Filter Buttons - start
+const companiesDOM = getElement('.companies');
+console.log(companiesDOM);
+// Filter Buttons - end
