@@ -2,6 +2,11 @@ import { productsContainer, filteredProducts } from "../app.js";
 
 const displayProducts = () => {
 
+    if (filteredProducts.length < 1) {
+        productsContainer.innerHTML = `<h6>Sorry, no products were found</h6>`;
+        return;
+    }
+
     productsContainer.innerHTML = filteredProducts.map(({ id, title, image, price }) => {
 
         return `          <article class="product" data-id="${id}">
