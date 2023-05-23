@@ -33,5 +33,15 @@ form.addEventListener('keyup', () => {
 
 // Filter Buttons - start
 const companiesDOM = getElement('.companies');
-console.log(companiesDOM);
+
+const displayFilterButtons = () => {
+
+    const companyButtons = ['all', ...new Set(products.map((product) => {
+        return product.company;
+    }))];
+
+    console.log(companyButtons);
+
+};
+displayFilterButtons();
 // Filter Buttons - end
