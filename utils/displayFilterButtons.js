@@ -1,3 +1,4 @@
+import { products } from "./products.js";
 import getElement from "./getElement.js";
 
 const companiesDOM = getElement('.companies');
