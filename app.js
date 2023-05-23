@@ -1,6 +1,7 @@
 import { products } from "./utils/products.js";
 import getElement from "./utils/getElement.js";
 import displayProducts from "./utils/displayProducts.js";
+import displayFilterButtons from "./utils/displayFilterButtons.js";
 
 export let filteredProducts = [...products];
 
