@@ -3,7 +3,7 @@ import { productsContainer, filteredProducts } from "../app.js";
 const displayProducts = () => {
 
     if (filteredProducts.length < 1) {
-        productsContainer.innerHTML = `<h6>Sorry, no products were found</h6>`;
+        productsContainer.innerHTML = `<h6>Sorry, no match was found</h6>`;
         return;
     }
 
