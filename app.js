@@ -58,6 +58,8 @@ companiesDOM.addEventListener('click', (event) => {
 
         }
 
+        // Clearing out the search input
+        searchInput.value = '';
     }
 
 });
