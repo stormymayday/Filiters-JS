@@ -6,6 +6,7 @@ import displayFilterButtons from "./utils/displayFilterButtons.js";
 export let filteredProducts = [...products];
 
 export const productsContainer = getElement('.products-container');
+export const companiesDOM = getElement('.companies');
 
 displayProducts();
 
@@ -35,3 +36,4 @@ form.addEventListener('keyup', () => {
 // Filter Buttons - start
 displayFilterButtons();
 // Filter Buttons - end
+
