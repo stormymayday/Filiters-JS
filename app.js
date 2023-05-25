@@ -36,5 +36,12 @@ form.addEventListener('keyup', () => {
 displayFilterButtons();
 
 companiesDOM.addEventListener('click', (event) => {
-    console.log(event.target);
+
+    const element = element.target;
+
+    // Checking if traget of the click event is a button
+    if (element.classList.contains('company-btn')) {
+
+    }
+
 });
