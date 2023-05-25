@@ -1,6 +1,5 @@
 import { products } from "./products.js";
 import { companiesDOM } from "../app.js";
-import getElement from "./getElement.js";
 
 const displayFilterButtons = () => {
 
