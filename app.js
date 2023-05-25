@@ -42,6 +42,11 @@ companiesDOM.addEventListener('click', (event) => {
     // Checking if traget of the click event is a button
     if (element.classList.contains('company-btn')) {
 
+        // Checking if the button is 'all' using data-id
+        if (element.dataset.id === 'all') {
+
+        }
+
     }
 
 });
