@@ -35,3 +35,6 @@ form.addEventListener('keyup', () => {
 
 displayFilterButtons();
 
+companiesDOM.addEventListener('click', (event) => {
+    console.log(event.target);
+});
