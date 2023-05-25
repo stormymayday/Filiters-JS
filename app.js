@@ -33,7 +33,5 @@ form.addEventListener('keyup', () => {
 });
 // Text Filter - end
 
-// Filter Buttons - start
 displayFilterButtons();
-// Filter Buttons - end
 
