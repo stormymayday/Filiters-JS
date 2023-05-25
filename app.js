@@ -45,7 +45,12 @@ companiesDOM.addEventListener('click', (event) => {
         // Checking if the button is 'all' using data-id
         if (element.dataset.id === 'all') {
 
+            // Making copy of the products array
+            filteredProducts = [...products];
+
         }
+
+    } else {
 
     }
 
