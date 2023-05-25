@@ -48,9 +48,15 @@ companiesDOM.addEventListener('click', (event) => {
             // Making copy of the products array
             filteredProducts = [...products];
 
-        }
+        } else {
 
-    } else {
+            // If it is one of the companies
+            // Filter out the products for that company
+            filteredProducts = products.filter((product) => {
+                return product.company === element.dataset.id;
+            });
+
+        }
 
     }
 
